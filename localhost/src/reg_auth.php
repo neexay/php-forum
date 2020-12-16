@@ -24,3 +24,4 @@ class reg_auth
     }
 }
 
+(new reg_auth)->comparePasswords();
