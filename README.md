@@ -13,6 +13,9 @@ vk.com/php1995
 
 
 участники:
-https://github.com/php1995  (https://vk.com/php1995)
 
-https://github.com/html1992  (https://vk.com/html1992)
+1. https://github.com/php1995  vk - https://vk.com/php1995
+
+
+
+2. https://github.com/html1992  vk - https://vk.com/html1992
