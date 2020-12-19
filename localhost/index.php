@@ -11,9 +11,9 @@
     <link href="img/php.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 <body>
-<?php include_once 'pages/header.html' ?>
+<?php require_once 'pages/header.html' ?>
 
-<?php include_once 'pages/footer.html' ?>
+<?php require_once 'pages/footer.html' ?>
 </body>
 </html>
 

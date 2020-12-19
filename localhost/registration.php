@@ -1,4 +1,5 @@
 <?php include_once 'pages/header.html' ?>
+<?php require_once('config.php'); ?>
     <head>
         <link rel="stylesheet" href="css/login.css" type="text/css">
         <link rel="stylesheet" href="css/header_and_footer.css">
@@ -21,7 +22,7 @@
             <div class="input-container">
                 <input id="password2" name="password2" type="" required="" placeholder="Подтвердите пароль"/>
             </div>
-            <input id="submit_btn" type="submit" class="button">Зарегистрироваться</input>
+            <input id="submit_btn" type="submit" value="Зарегистрироваться" class="button">
         </form>
     </div>
 <?php include_once 'pages/footer.html' ?>
@@ -35,10 +36,11 @@ class reg_auth
         if ($password1 === $password2) {
             $final_password = $password1;
             if (preg_match("#^[a-zA-Z0-9\-_]+$#", $final_password) === false) {
-                echo "<script> должны подсветититься поля с паролями, должно 
-                        появиться окно(10px примерно) под полем с паролем. Сделаю завтра,
-                         а сейчас спать, время 23:54</script>";
+                echo "<script>alert('Пароли не совпадают, попробуйте ещё раз');</script>";
             }
         }
     }
 }
+
+$reg_auth = new reg_auth;
+$reg_auth->checkLoginAndPassword();
