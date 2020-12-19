@@ -10,10 +10,9 @@ vk.com/php1995
 
 
 
-проект заморожен с 17.12.2020 до ??.12.2020
 
 
 участники:
-github.com/php1995  (vk.com/php1995)
+https://github.com/php1995  (https://vk.com/php1995)
 
-github.com/html1992  (vk.com/html1992)
+https://github.com/html1992  (https://vk.com/html1992)
