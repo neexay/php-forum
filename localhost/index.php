@@ -13,6 +13,8 @@
 <body>
 <?php require_once 'pages/header.html' ?>
 
+<?php require_once 'pages/content.html' ?>
+    
 <?php require_once 'pages/footer.html' ?>
 </body>
 </html>
