@@ -1,5 +1,4 @@
 <?php include_once 'pages/header.html' ?>
-<?php require_once('config.php'); ?>
     <head>
         <link rel="stylesheet" href="css/login.css" type="text/css">
         <link rel="stylesheet" href="css/header_and_footer.css">
@@ -26,21 +25,3 @@
         </form>
     </div>
 <?php include_once 'pages/footer.html' ?>
-
-<?php
-
-class reg_auth
-{
-    public function checkLoginAndPassword($password1, $password2, $login)
-    {
-        if ($password1 === $password2) {
-            $final_password = $password1;
-            if (preg_match("#^[a-zA-Z0-9\-_]+$#", $final_password) === false) {
-                echo "<script>alert('Пароли не совпадают, попробуйте ещё раз');</script>";
-            }
-        }
-    }
-}
-
-$reg_auth = new reg_auth;
-$reg_auth->checkLoginAndPassword();
