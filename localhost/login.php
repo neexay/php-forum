@@ -1,5 +1,4 @@
 <?php include_once 'pages/header.html' ?>
-<?php require 'config.php' ?>
     <link rel="stylesheet" href="css/login.css" type="text/css">
     <link rel="stylesheet" href="css/header_and_footer.css">
     <title>Авторизация</title>

@@ -56,7 +56,6 @@ hr {
 }
 
 header {
-    display: block;
     float: left;
     background-color: #343434;
     width: 99.4%;
@@ -167,6 +166,10 @@ header > div#logo > a > span {
     border-bottom: 1px solid silver;
 }
 
+.reg_auth {
+    color: white;
+}
+
 .btn {
     float: right;
     margin-right: 3%;
@@ -180,32 +183,9 @@ header > div#logo > a > span {
     font-family: 'Roboto Slab', serif;
 }
 
-.btn .reg_auth
-{
-    color: #ffffff;
-    text-decoration: none;
-    /*transition: all .6s ease;
-    -ms-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -moz-transition: all .6s ease;
-    -webkit-transition: all .6s ease;*/
-}
-
-.btn:hover .reg_auth
-{
-    color: #ffffff;
-    text-decoration: none;
-    transition: all .6s ease;
-    -ms-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -moz-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
-}
-
 .btn:hover {
-    /*border-bottom: 2px solid rgb(183, 234, 65);*/
+    border-bottom: 2px solid rgb(183, 234, 65);
     margin-top: 7px;
-    transition: all 0.3s ease;
 }
 
 .btn:active {
@@ -267,3 +247,4 @@ footer {
     font-family: 'Suez One', Serif;
     color: #eef35a;
 }
+
