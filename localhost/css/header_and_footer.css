@@ -87,68 +87,6 @@ header > div#logo > a > span {
     font-weight: 800;
 }
 
-@media (min-width: 950px) {
-    #logo > a > img {
-        margin-left: 15%;
-    }
-
-    #logo {
-        float: left;
-        width: 30%;
-    }
-
-    #about {
-        float: left;
-        width: 37%;
-    }
-
-    #reg_auth {
-        float: right;
-        width: 30%;
-    }
-}
-
-@media (max-width: 524px) {
-    #logo > a > img {
-        margin-left: 5%;
-    }
-
-    #logo {
-        width: 100%;
-    }
-
-    #about {
-        visibility: hidden;
-        display: none;
-    }
-
-    #reg_auth {
-        visibility: hidden;
-        display: none;
-    }
-}
-
-@media (max-width: 949px) and (min-width: 525px) {
-    #logo > a > img {
-        margin-left: 15%;
-    }
-
-    #logo {
-        float: left;
-        width: 50%;
-    }
-
-    #about {
-        visibility: hidden;
-        display: none;
-    }
-
-    #reg_auth {
-        float: right;
-        width: 50%;
-    }
-}
-
 #about {
     text-align: center;
     font-family: 'Roboto Slab', serif;
