@@ -1,0 +1,65 @@
+
+/* стили разметки меню */
+.menu li {
+    list-style: none;
+}
+.menu__link{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu {
+  background-color:#586363;
+  color: #fff;
+  padding: 15px 0;
+}
+.menu__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.menu__list > li {
+    position: relative;
+    margin: 0 10px 0 0;
+}
+.menu__list > li:hover .sub-menu__list{
+    display: block;
+
+}
+
+/* стилизация ссылок в меню */
+.menu li > a {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 2px;
+    color: #A2B1B1;
+    text-decoration: none;
+    transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+}
+.menu li > a:visited {   
+    color: #A2B1B1;
+}
+.menu li > a:hover {
+    color:  #D2D2C1;
+    text-decoration: none;
+    transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+}
+.menu li > a:active {   
+    color:  #f8f8f8;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 700px) {
+    .menu li > a {
+        font-size: 14px;
+    }
+}
