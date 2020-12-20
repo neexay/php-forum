@@ -1,4 +1,5 @@
 <?php require_once 'pages/header.html'; ?>
+<?php session_start(); ?>
 <head>
     <link rel="stylesheet" href="css/login.css" type="text/css">
     <link rel="stylesheet" href="css/header_and_footer.css">
@@ -6,7 +7,7 @@
     <title>Регистрация</title>
 </head>
 <div class="box">
-    <form action="registration.php" method="get">
+    <form action="reg.php" method="get">
         <span class="text-center">Добро пожаловать!</span>
         <div class="input-container">
             <input id="login" name="login" type="text" required="required" placeholder="Логин"/>
