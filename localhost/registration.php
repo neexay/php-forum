@@ -1,9 +1,5 @@
-<?php require_once 'pages/header.html'; ?>
 <?php session_start(); ?>
 <head>
-    <link rel="stylesheet" href="css/login.css" type="text/css">
-    <link rel="stylesheet" href="css/header_and_footer.css">
-    <link href="img/php.ico" rel="shortcut icon" type="image/x-icon">
     <title>Регистрация</title>
 </head>
 <div class="box">
@@ -24,5 +20,4 @@
         <input id="submit_btn" type="submit" value="Зарегистрироваться" class="button">
     </form>
 </div>
-<?php require_once 'pages/footer.html' ?>
 
