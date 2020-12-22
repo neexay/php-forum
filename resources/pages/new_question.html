@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP-форум</title>
+    <link rel="stylesheet" href="../resources/css/new_question.css">
+    <link rel="stylesheet" href="../resources/css/content.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="new_question">
+
+            <div class="title">
+                <h2>Новый вопрос</h2>
+                <hr>
+            </div>
+
+            <div class="title">
+                <h3>Суть вопроса</h3>
+                <p>Сформулируйте вопрос так, чтобы было сразу понятно, о чем речь</p>
+                <!--------------------------обработка поля в php-->
+                <form action="textarea_question.php">
+                <textarea name="question" id="question" cols="130" rows="2" maxlength="130" placeholder="Введите вопрос" required>
+                </textarea>
+               </form>
+            </div>
+
+            <div class="title">
+                <h3>Теги вопроса</h3>
+                <p>Ключевые слова от 1 до 5 штук</p>
+                 <!-------обработка поля в php-->
+                <form action="textarea_question.php">
+                    <textarea name="tags" id="tags" cols="130" rows="2" maxlength="130" placeholder="Введите теги" required>
+                    </textarea>
+                   </form>
+            </div>
+
+            <div class="title">
+                <h3>Детали вопроса</h3>
+                <p>Опишите в подробностях свой вопрос</p>
+                 <!------обработка поля в php-->
+                <form action="textarea_question.php">
+                     <!---------!!!!написать текстовой редактор(js/php)-->
+                    <textarea name="question_description" id="question_description" cols="130" rows="10" maxlength="600" placeholder="Введите подробности" required>
+                    </textarea>
+                   </form>
+            </div>
+             <!------обработка поля в php-->
+            <form action="">
+                <input type="button" class="btn" value="Отправить">
+            </form>
+        </div>
+            
+    
+</body>
+</html>
