@@ -1,4 +1,11 @@
-
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
 /* стили разметки меню */
 .menu li {
     list-style: none;
@@ -8,7 +15,7 @@
     font-weight: 600;
 }
 .menu {
-  background-color:#586363;
+  background-color: #090E16;
   color: #fff;
   padding: 15px 0;
 }
@@ -17,12 +24,23 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
+    transition: all 1.0s ease;
+
 }
-.menu__list > li {
+.menu__list > li
+{
     position: relative;
     margin: 0 10px 0 0;
+
 }
+
+.menu__list > li:hover
+{
+    /*background: linear-gradient(#090E16, #293345);*/
+    transition: all 1.0s ease;
+}
+
 .menu__list > li:hover .sub-menu__list{
     display: block;
 
@@ -32,34 +50,76 @@
 .menu li > a {
     font-family: 'Space Grotesk', sans-serif;
     letter-spacing: 2px;
-    color: #A2B1B1;
+    color: #56709c;
     text-decoration: none;
-    transition: all .6s ease;
-    -ms-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -moz-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
-}
-.menu li > a:visited {   
-    color: #A2B1B1;
+    transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
 }
 .menu li > a:hover {
-    color:  #D2D2C1;
-    text-decoration: none;
-    transition: all .6s ease;
-    -ms-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -moz-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
+    color: #a4beed;
+    transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    background: linear-gradient(#090E16, #293345);
 }
 .menu li > a:active {   
-    color:  #f8f8f8;
-    text-decoration: underline;
+    color: rgb(221, 0, 0);
 }
 
 
 @media (max-width: 700px) {
     .menu li > a {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
+
+/* ссылка "войти", "найти", "задать вопрос" */
+.container {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222A2E;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu2
+{
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.menu2:hover
+{
+    margin-left: -1px;
+    margin-right: -1px;
+    border-left: 1px solid #c3d7e0;
+    border-right: 1px solid #c3d7e0;
+}
+
+.container a {
+    color:  #9aa4ad;
+    font-weight: 600;
+    padding: 15px;
+    transition: 0.6s ease;
+}
+.container a:hover {
+    color: #c3d7e0;
+    transition: 0.6s ease;
+}
+  
+.container a:active {
+    color: rgb(221, 0, 0);
+}
+  
