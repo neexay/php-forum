@@ -1,9 +1,6 @@
 # php-forum
 форум на php 7.4
 
-адрес сайта: http://java1995.beget.tech 
-(http only)
-
 начало проекта 14.12.2020
 
 автор:
