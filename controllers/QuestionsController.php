@@ -4,10 +4,7 @@ class QuestionsController
 {
     public function actionIndex()
     {
-        include_once "public/include_pages/header.html";
-        include_once "public/include_pages/sidebar.html";
-        include_once "public/include_pages/content.html";
-        include_once "public/include_pages/footer.html";
+        require_once "public/pages/ask.php";
         return true;
     }
 
@@ -21,6 +18,6 @@ class QuestionsController
         include_once "public/include_pages/header.html";
         include_once "public/include_pages/sidebar.html";
         include_once "public/include_pages/footer.html";
-        include_once "public/pages/ask.html";
+        include_once "public/pages/ask.php";
     }
 }
