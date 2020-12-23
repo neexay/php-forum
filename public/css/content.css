@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.flex
+{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.content
+{
+  display: block;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #888D93;
+}

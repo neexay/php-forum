@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP-форум</title> 
-    <link rel="stylesheet" href="resources\css\menucontent.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
-</head>
-<body>
-        <?php include ("resources/pages/header.html");?>
+<?php
+// FRONT CONTROLLER
+
+// 1. Общие настройки
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+// 2. Подключение файлов системы
+define('ROOT', dirname(__FILE__));
+require_once(ROOT . '/components/Router.php');
+
+// 3. Установка соединения с БД
 
 
-        <div class="flex">
-            <div class="sidebar">
-                <a href="#">&#10068; Все вопросы</a>
-                <a href="#">&#9758; Все теги</a>
-                <a href="#">&#9993;	Сообщить об ошибке</a>
-            </div>
-            <?php include ("../localhost/resources/pages/content.html");?>
-        </div>
-
-    	<?php include ("resources/pages/footer.html");?>
-</body>
-</html>
+// 4. Вызов Router
+$router = new Router();
+$router->run();
