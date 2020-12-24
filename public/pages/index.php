@@ -9,8 +9,6 @@
     <title>Главная страница</title>
 </head>
 <body>
-<!-- на время разработки сайта -->
-<?php require_once("config/database.php"); ?>
 <?php require_once("public/include_pages/header.html"); ?>
 <!-- отсутсвуют стили(есть только базовые) -->
 <?php // require_once("public/include_pages/content.html"); ?>

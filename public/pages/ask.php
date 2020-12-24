@@ -32,8 +32,7 @@
             <form action="">
                 <textarea name="question-title" id="question" cols="130" rows="2" maxlength="130"
                           placeholder="Введите вопрос"
-                          required>
-                </textarea>
+                          required></textarea>
         </div>
 
         <div class="title">
@@ -42,8 +41,7 @@
             <!-------обработка поля в php-->
             <textarea name="question-tags" id="tags" cols="130" rows="2" maxlength="130"
                       placeholder="Введите теги"
-                      required>
-                    </textarea>
+                      required></textarea>
 
         </div>
 
@@ -53,8 +51,7 @@
             <!------обработка поля в php-->
             <!---------!!!!написать текстовой редактор(js/php)-->
             <textarea name="question-desc" id="question_description" cols="130" rows="10" maxlength="600"
-                      placeholder="Введите подробности" required>
-                    </textarea>
+                      placeholder="Введите подробности" required></textarea>
         </div>
         <!------обработка поля в php-->
         <input type="button" class="btn" value="Отправить">

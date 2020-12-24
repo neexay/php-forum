@@ -4,7 +4,7 @@ class LoginController
 {
     public function action()
     {
-        echo "Страница входа в аккаунт";
+        require_once "public/pages/login.php";
         return true;
     }
 }
