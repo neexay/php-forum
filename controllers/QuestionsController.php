@@ -2,7 +2,7 @@
 
 class QuestionsController
 {
-    public function actionIndex()
+    public function actionAsk()
     {
         require_once "public/pages/ask.php";
         return true;

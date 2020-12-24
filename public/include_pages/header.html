@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP-форум</title>
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/menu_and_content.css">
+    <link rel="stylesheet" href="public/css/header.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<div class="hwrapper">
     <nav class="menu">
         <ul class="menu__list">
             <li>
-                <a href="/" class="menu__link">Главная</a>
+                <a href="main.php" class="menu__link">Главная</a>
             </li>
             <li>
                 <a href="#" class="menu__link">Javascript</a>
@@ -30,18 +29,17 @@
             </li>
         </ul>
     </nav> 
-
     <div class="container">
             <div class="menu2">
-                <a href="/login" id="sign-in"> &#128274; Войти или зарегистрироваться</a>
+                <a href="login.php" id="sign-in"> &#128274; Войти на сайт</a>
             </div>
             <div class="menu2">
                 <a href="#" id="find">Искать вопрос</a>
             </div>
             <div class="menu2">
-                <a href="/questions/ask" id="answer">Задать вопрос</a>
+                <a href="ask.php" id="answer">Задать вопрос</a>
             </div>
     </div>
+</div>
 </body>
 </html>
-

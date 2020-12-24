@@ -1,21 +1,34 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
-.flex {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
+.flex
+{
+  display: block;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
 }
 
-.content {
-    display: block;
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-color: #888D93;
+.content
+{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;/* #888D93;*/
 }
 
+.block
+{
+  width: 100%;
+  height: 50vh;
+  background-color: #dedede;
+  text-align: center;
+  line-height: 50vh;
+  border: 2px #212121 dotted;
+  margin-bottom: 10px;
+}
