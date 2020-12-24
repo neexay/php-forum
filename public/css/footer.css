@@ -5,7 +5,6 @@
 
 .wrapperfooter
 {
-	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -13,10 +12,9 @@
 	position: relative;
 	width: 100%;
 	height: 10vh;
-	background-color: #dedede;
-	border: 2px dotted;
-	padding-left: 5px;
-	padding-right: 5px;
+	background-color: #a1a1a1;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .footerlinks
@@ -54,7 +52,7 @@
 
 .iconvk
 {
-	background-image: url(../img/vk-1.svg);
+	background-image: url(../images/vk-1.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 35px;
@@ -70,7 +68,7 @@
 
 .iconyoutube
 {
-	background-image: url(../img/youtube.svg);
+	background-image: url(../images/youtube.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
