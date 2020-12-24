@@ -11,10 +11,6 @@ class Router
         $this->routes = include($routesPath);
     }
 
-    /**
-     * @return string
-     * возвращает запрошенную строку
-     */
     private function getURI()
     {
         if (!empty($_SERVER['REQUEST_URI'])) {

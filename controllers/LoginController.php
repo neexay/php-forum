@@ -2,7 +2,7 @@
 
 class LoginController
 {
-    public function action()
+    public function actionLogin()
     {
         require_once "public/pages/login.php";
         return true;

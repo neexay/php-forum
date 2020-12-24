@@ -4,6 +4,6 @@ class IndexController
 {
     public function action()
     {
-        include_once "public/pages/index.php";
+        include_once "public/pages/main.php";
     }
 }
