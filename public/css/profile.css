@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-.wrapperprofile
+.wrapper-profile
 {
 	display: flex;
 	flex-direction: column;
@@ -16,7 +16,7 @@
 	background-color: #DDDDDD;
 }
 
-.iconname
+.icon-name
 {
 	display: flex;
 	flex-direction: column;
@@ -26,7 +26,7 @@
 	height: auto;
 }
 
-.profileicon
+.profile-icon
 {
 	display: flex;
 	align-items: center;
@@ -36,7 +36,7 @@
 	width: 100px;
 }
 
-.profilename
+.profile-name
 {
 	display: flex;
 	align-items: center;
@@ -46,7 +46,7 @@
 	width: 100%;
 }
 
-.aboutprofile1{
+.about-profile1{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -54,7 +54,7 @@
 	margin-bottom: 10vh;
 }
 
-.aboutme
+.about-me
 {
 	color: #262626;
 	font-size: 20pt;
@@ -64,12 +64,12 @@
 	font-size: 15pt;
 }
 
-.aboutprofile2{
+.about-profile2{
 	display: flex;
 	flex-direction: column;
 }
 
-.contactstitle
+.contacts-title
 {
 	color: #262626;
 	font-size: 20pt;
