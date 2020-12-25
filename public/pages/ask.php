@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="public/css/menucontent.css">
+    <link rel="stylesheet" href="public/css/menu_and_content.css">
     <title>Задать вопрос</title>
 </head>
 <body>
-<div class="pagewrapper">
-                <div class="a1">
+<div class="page-wrapper">
+                <div class="grid">
                     <?php require_once("public/include_pages/header.html");?>
                 </div>
                 <div class="sidebar">
@@ -16,7 +16,7 @@
             <div class="sidecont">
                 <div class="confoot">
                     <div class="con">
-                        <?php require_once("public/include_pages/new_question.html");?>
+                        <?php require_once("public/include_pages/ask.html");?>
                     </div>
                     <div class="foo">
                         <?php require_once("public/include_pages/footer.html");?>
