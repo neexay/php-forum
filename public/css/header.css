@@ -8,7 +8,7 @@ a {
 }
 /* стили разметки меню */
 
-.hwrapper
+.header-wrapper
 {
     display: sticky;
     height: 22vh;
@@ -86,10 +86,6 @@ a {
     color: #bdd5ff;
 }
 
-ul li
-{
-}
-
 @media (max-width: 700px) {
     .menu li > a {
         font-size: 12px;
@@ -106,11 +102,10 @@ ul li
     align-items: center;
     background-color: #222A2E;
     height: 11vh;
-    /*padding-top: 15px;
-    padding-bottom: 15px;*/
+
 }
 
-.menu2
+.submenu
 {
     padding: 0px;
     margin-left: 0px;
@@ -119,7 +114,7 @@ ul li
     padding-bottom: 3px;
 }
 
-.menu2:hover
+.submenu:hover
 {
     margin-left: -1px;
     margin-right: -1px;
