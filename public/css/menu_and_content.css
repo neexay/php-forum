@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body, html
+{
+  height: 100%;
+  width: 100%;
+  background-color: #dedede;
+}
+
 .flex {
     display: flex;
     position: relative;
@@ -20,10 +27,35 @@
     width: 100%;
     background-color: #888D93;
 }
+.grid
+{
+  display: block;
+  position: sticky;
+  top: 0;
+  left: 0;
+  grid-area: header;
+  height: 22vh;
+  z-index: 999
+}
 
+.page-wrapper
+{
+  display: grid;
+  align-content: center;
+  align-self: start;
+  grid-template-columns:  22vw auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  "header header"
+  "sidebar content";
+  position: relative;
+}
 .sidebar {
     display: block;
-    position: relative;
+    position: sticky;
+    top: 22vh;
+    left: 0;
+    grid-area: sidebar; 
     margin: 0;
     padding: 0;
     width: 22vw;
@@ -59,21 +91,53 @@
 }
 
 
+.sidecont
+{
+  display: sticky;
+  top: 0;
+  left: 0;
+  position: relative;
+  flex-direction: row;
+  grid-area: content;
+}
+
+
+.confoot
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.con
+{
+  display: flex;
+  position: relative;
+}
+
+.foo
+{
+  display: flex;
+  position: relative;
+}
+
 @media screen and (max-width: 700px) {
     .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
+      width: 100%;
+      height: auto;
+      position: relative;
     }
-
-    .sidebar a {
-        float: left;
-    }
+    .sidebar a {float: left;}
 }
-
+  
 @media screen and (max-width: 400px) {
     .sidebar a {
-        text-align: center;
-        float: none;
+      text-align: center;
+      float: none;
     }
 }
+
+
