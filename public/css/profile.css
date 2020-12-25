@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapperprofile
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	padding-top: 5%;
+	background-color: #DDDDDD;
+}
+
+.iconname
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.profileicon
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/user-profile-svgrepo-com.svg);
+	height: 100px;
+	width: 100px;
+}
+
+.profilename
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25pt;
+	height: auto;
+	width: 100%;
+}
+
+.aboutprofile1{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+}
+
+.aboutme
+{
+	color: #262626;
+	font-size: 20pt;
+}
+.description{
+	color: #363636;
+	font-size: 15pt;
+}
+
+.aboutprofile2{
+	display: flex;
+	flex-direction: column;
+}
+
+.contactstitle
+{
+	color: #262626;
+	font-size: 20pt;
+}
+.contacts
+{
+	color: #363636;
+	font-size: 15pt;
+}
