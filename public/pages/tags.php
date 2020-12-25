@@ -1,13 +1,28 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="public/css/page-structure.css">
+    <title>Все теги</title>
 </head>
 <body>
-https://qna.habr.com/tags
+<div class="page-wrapper">
+                <div class="sticky-block">
+                    <?php require_once("public/include_pages/header.html");?>
+                </div>
+                <div class="sidebar">
+                    <?php require_once("public/include_pages/sidebar.html");?>
+                </div>
+            <div class="sidecont">
+                <div class="confoot">
+                    <div class="con">
+                        <?php require_once("public/include_pages/tags.html");?>
+                    </div>
+                    <div class="foo">
+                        <?php require_once("public/include_pages/footer.html");?>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>

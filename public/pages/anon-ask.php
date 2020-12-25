@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="public/css/page-structure.css">
-    <title>Регистрация</title>
+    <title>Анонимный вопрос</title>
 </head>
 <body>
 <div class="page-wrapper">
@@ -16,7 +16,7 @@
             <div class="sidecont">
                 <div class="confoot">
                     <div class="con">
-                        <?php require_once("public/include_pages/reg.html");?>
+                        <?php require_once("public/include_pages/anon-ask.html");?>
                     </div>
                     <div class="foo">
                         <?php require_once("public/include_pages/footer.html");?>

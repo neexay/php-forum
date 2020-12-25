@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="public/css/menu_and_content.css">
+	<title>Профиль</title>
+	<link rel="stylesheet" href="public/css/page-structure.css">
 </head>
 <body>
  <div class="page-wrapper">
-                <div class="grid">
+                <div class="sticky-block">
                     <?php require_once("public/include_pages/header.html");?>
                 </div>
                 <div class="sidebar">

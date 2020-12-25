@@ -1,75 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
-.wrapper-footer {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 10vh;
-    background-color: #a1a1a1;
-    padding-left: 10px;
-    padding-right: 10px;
+.wrapper-footer
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	height: 10vh;
+	background-color: #a1a1a1;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.footer-links {
-    display: block;
-    width: 40%;
+.footer-links
+{
+	display: block;
+	width: 40%;
 }
 
-.links-foo {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    list-style-type: none;
+.links-foo
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	list-style-type: none;
 }
 
-.links-foo li a {
-    color: #212121;
+.links-foo li a
+{
+	color: #212121;
 }
 
-.links-foo li a:hover {
+.links-foo li a:hover { 
     text-decoration: underline;
+   }
+
+.footer-icons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: auto;
+	height: auto;
 }
 
-.footer-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-    height: auto;
+.icon-vk
+{
+	background-image: url(../images/vk-1.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 35px;
+	height: 35px;
+	margin-right: 12px;
 }
 
-.icon-vk {
-    background-image: url(../images/vk-1.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 35px;
-    height: 35px;
-    margin-right: 12px;
+.icon-vk a
+{
+	display: block;
+	height: 100%;
 }
 
-.icon-vk a {
-    display: block;
-    height: 100%;
+.icon-youtube
+{
+	background-image: url(../images/youtube.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 45px;
+	height: 30px;
 }
 
-.icon-youtube {
-    background-image: url(../images/youtube.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 45px;
-    height: 30px;
+.icon-youtube a
+{
+	display: block;
+	height: 100%;
 }
 
-.icon-youtube a {
-    display: block;
-    height: 100%;
+@media screen and (max-width: 700px) {
+    .footer-links
+	{
+		width: 60%;
+	}
 }
