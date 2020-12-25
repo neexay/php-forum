@@ -1,10 +1,11 @@
 <?php
 
-class LoginController
+class LoginController extends Controller
 {
     public function actionLogin()
     {
-        require_once "public/pages/login.php";
+        $this->renderView('','');
         return true;
     }
 }
+

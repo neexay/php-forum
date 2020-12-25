@@ -7,3 +7,4 @@ class TagsController
         include_once "public/pages/tags.php";
     }
 }
+

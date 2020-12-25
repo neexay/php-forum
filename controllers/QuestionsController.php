@@ -13,3 +13,4 @@ class QuestionsController
         echo 'Просмотр вопроса';
     }
 }
+

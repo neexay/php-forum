@@ -28,7 +28,8 @@ class Router
             // если есть совпадение, определить какой контроллер и action обрабатывают запрос
             if (preg_match("~$uriPattern~", $uri)) {
                 $regiments = explode('/', $path);
-                $controllerName = array_shift($regiments) . 'Controller';
+                $cname = array_shift($regiments);
+                $controllerName = $cname . 'Controller';
                 $controllerName = ucfirst($controllerName);
 
                 $actionName = 'action' . ucfirst(array_shift($regiments));
@@ -41,7 +42,7 @@ class Router
                 }
 
                 //создать обьект, вызвать метод(action)
-                $controllerObject = new $controllerName;
+                $controllerObject = new $controllerName($cname);
                 $result = $controllerObject->$actionName();
                 if ($result != null) {
                     break;
@@ -51,3 +52,4 @@ class Router
 
     }
 }
+

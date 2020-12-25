@@ -1,15 +1,16 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
+
 /* стили разметки меню */
 
-.header-wrapper
-{
+.header-wrapper {
     display: sticky;
     height: 22vh;
     width: 100%;
@@ -18,12 +19,13 @@ a {
 .menu li {
     list-style: none;
 }
-.menu__link{
+
+.menu__link {
     text-transform: uppercase;
     font-weight: 600;
 }
-.menu
-{
+
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +33,7 @@ a {
     color: #fff;
     height: 11vh;
 }
+
 .menu__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -41,19 +44,18 @@ a {
     justify-content: space-around;
     transition: all 1.0s ease;
 }
-.menu__list > li
-{
+
+.menu__list > li {
     position: relative;
     /*margin: 0 10px 0 0;*/
 }
 
-.menu__list > li:hover
-{
+.menu__list > li:hover {
     /*background: linear-gradient(#090E16, #293345);*/
     transition: all 1.0s ease;
 }
 
-.menu__list > li:hover .sub-menu__list{
+.menu__list > li:hover .sub-menu__list {
     display: block;
 
 }
@@ -71,6 +73,7 @@ a {
     -webkit-transition: all 0.5s ease;
     background-position: 0%
 }
+
 .menu li > a:hover {
     color: #a4beed;
     transition: all 0.5s ease;
@@ -82,7 +85,8 @@ a {
     background-size: 100%;
     background-position: 100%;
 }
-.menu li > a:active {   
+
+.menu li > a:active {
     color: #bdd5ff;
 }
 
@@ -105,8 +109,7 @@ a {
 
 }
 
-.submenu
-{
+.submenu {
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -114,8 +117,7 @@ a {
     padding-bottom: 3px;
 }
 
-.submenu:hover
-{
+.submenu:hover {
     margin-left: -1px;
     margin-right: -1px;
     border-left: 1px solid #c3d7e0;
@@ -123,16 +125,17 @@ a {
 }
 
 .container a {
-    color:  #9aa4ad;
+    color: #9aa4ad;
     font-weight: 600;
     padding: 15px;
     transition: 0.6s ease;
 }
+
 .container a:hover {
     color: #c3d7e0;
     transition: 0.6s ease;
 }
-  
+
 .container a:active {
     color: #e3f6ff;
 }

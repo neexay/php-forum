@@ -1,81 +1,76 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.wrapper-profile
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	position: relative;
-	width: 100vw;
-	height: 100vh;
-	padding-top: 5%;
-	background-color: #DDDDDD;
+.wrapper-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5%;
+    background-color: #DDDDDD;
 }
 
-.icon-name
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: auto;
+.nameicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 
-.profile-icon
-{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-image: url(../images/user-profile-svgrepo-com.svg);
-	height: 100px;
-	width: 100px;
+.profile-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/user-profile-svgrepo-com.svg);
+    height: 100px;
+    width: 100px;
 }
 
-.profile-name
-{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 25pt;
-	height: auto;
-	width: 100%;
+.profile-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25pt;
+    height: auto;
+    width: 100%;
 }
 
-.about-profile1{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-top: 20vh;
-	margin-bottom: 10vh;
+.about-profile1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
 }
 
-.about-me
-{
-	color: #262626;
-	font-size: 20pt;
-}
-.description{
-	color: #363636;
-	font-size: 15pt;
+.about-me {
+    color: #262626;
+    font-size: 20pt;
 }
 
-.about-profile2{
-	display: flex;
-	flex-direction: column;
+.description {
+    color: #363636;
+    font-size: 15pt;
 }
 
-.contacts-title
-{
-	color: #262626;
-	font-size: 20pt;
+.about-profile2 {
+    display: flex;
+    flex-direction: column;
 }
-.contacts
-{
-	color: #363636;
-	font-size: 15pt;
+
+.contacts-title {
+    color: #262626;
+    font-size: 20pt;
+}
+
+.contacts {
+    color: #363636;
+    font-size: 15pt;
 }

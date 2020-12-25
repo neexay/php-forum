@@ -6,4 +6,6 @@ return array(
     'tags' => 'tags/tags',
     'feedback' => 'feedback/feedback' ,
     '' => 'index',
+    'ask_anon' => 'questions/anon'
 );
+
