@@ -29,13 +29,14 @@
 
             <div class="sidecont">
                 <div class="confoot">
-<div class="con">
+                    <div class="con">
                     <!-- Подключение конента - он по идее всегда должен быть разным -->
                         <?php if(isset($content)){echo $content;}else{ ?>
                             <!-- содержание по умолчанию -->
                             <h1>Контент не загружен</h1>
                         <?php }?>
-</div>
+                    </div>
+
                     <div class="foo">
                     <!-- Подключение подвала -->
                         <?php if(isset($footer)){echo $footer;}else{ ?>

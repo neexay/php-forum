@@ -20,10 +20,10 @@
     </nav>
     <div class="container">
         <div class="sub-menu">
-            <a href="/security/login" id="sign-in"> &#128274; Войти на сайт</a>
+            <a href="/login" id="sign-in"> &#128274; Войти на сайт</a>
         </div>
         <div class="sub-menu">
-            <a href="/security/reg" id="sign-up"> &#128274; Зарегистрироваться</a>
+            <a href="/reg" id="sign-up"> &#128274; Зарегистрироваться</a>
         </div>
         <div class="sub-menu">
             <a href="/find" id="find">Искать вопрос</a>
