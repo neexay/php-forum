@@ -1,28 +1,24 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../public/css/menu_and_content.css">
-    <title>Главная страница</title>
-</head>
-<body>
-<div class="page-wrapper">
-                <div class="grid">
-                    <?php require_once("views/include_pages/header.html");?>
-                </div>
-                <div class="sidebar">
-                    <?php require_once("views/include_pages/sidebar.html");?>
-                </div>
-            <div class="sidecont">
-                <div class="confoot">
-                    <div class="con">
-                        <?php require_once("views/include_pages/content.html");?>
-                    </div>
-                    <div class="foo">
-                        <?php require_once("views/include_pages/footer.html");?>
+<!-- Установка заголовка страницы ДЛЯ ТЕКУЩЕЙ СТРАНИЦЫ! -->
+<?php if(!isset($title)){ ob_start(); ?>
+    Форум-главная страница
+    <?php $title = ob_get_clean();} ?>
+<!-- Установка СОДЕРЖИМОГО страницы ДЛЯ ТЕКУЩЕЙ СТРАНИЦЫ! -->
+<?php if(!isset($content)){ ob_start(); ?>
+            <div class="flex">
+                <div class="content">
+                    <div class="block">
+                        <div class="block-inside">
+                            <div class="name">Ivan Ivanov</div>
+                            <div class="topic">Web</div>
+                        </div>
+                        <div class="title-question">
+                            Lorem ipsum?
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-</body>
-</html>
+    <?php $content = ob_get_clean();} ?>
+
+
+<!-- ЗДЕСЬ ВСЕ НАСЛЕДУЕТСЯ ИЗ ШАБЛОНА! -->
+<?php require 'views/include/pages_template.php'; ?>

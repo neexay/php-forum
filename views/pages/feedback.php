@@ -1,13 +1,27 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<h1>еще не сверстано, снизу выводится страница main.php по умолчанию </h1>
-</body>
-</html>
+<!-- Установка заголовка страницы ДЛЯ ТЕКУЩЕЙ СТРАНИЦЫ! -->
+<?php if(!isset($title)){ ob_start(); ?>
+    Форум-Сообщить об ошибке
+    <?php $title = ob_get_clean();} ?>
+<!-- Установка СОДЕРЖИМОГО страницы ДЛЯ ТЕКУЩЕЙ СТРАНИЦЫ! -->
+<?php if(!isset($content)){ ob_start(); ?>
+    <form class="error_form" action="#">
+        <div class="form">
+            <div class="title">
+                <h2>Сообщите об ошибке</h2>
+                <hr>
+            </div>
+            <div class="title">
+                <p>Опишите возникшую ошибку</p>
+                <!------обработка поля в php-->
+                <textarea name="error-texrarea" id="error-textarea" cols="130" rows="10" maxlength="600"
+                          placeholder="Введите подробности" required></textarea>
+            </div>
+            <input type="submit" class="btn" value="Отправить">
+
+        </div>
+    </form>
+    <?php $content = ob_get_clean();} ?>
+
+
+<!-- ЗДЕСЬ ВСЕ НАСЛЕДУЕТСЯ ИЗ ШАБЛОНА! -->
+<?php require 'views/include/pages_template.php'; ?>

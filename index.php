@@ -12,6 +12,8 @@ require_once(ROOT . '/components/Renderer.php');
 require_once(ROOT . '/components/Controller.php');
 
 // 3. Установка соединения с БД
+
+/*
 $hostname = "localhost";
 $username = "root";
 $password = "root";
@@ -21,6 +23,7 @@ try {
 } catch (Exception $e) {
     var_dump($e->getMessage());
 }
+*/
 
 // 4. Вызов Router
 $router = new Router();
