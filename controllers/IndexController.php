@@ -4,7 +4,7 @@ class IndexController extends Controller
 {
     public function action()
     {
-        $this->renderView();
+        $this->renderView('', 'main');
     }
 }
 

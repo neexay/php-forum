@@ -4,7 +4,7 @@ class TagsController
 {
     public function actionTags()
     {
-        include_once "public/pages/tags.php";
+        include_once "views/pages/tags.php";
     }
 }
 

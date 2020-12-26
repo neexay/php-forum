@@ -1,5 +1,4 @@
-.sidebar
-{
+.sidebar {
     display: block;
     width: 22vw;
     background-color: #323f45;
@@ -33,5 +32,5 @@
 
 
 .sidebar a:active {
-  color: white;
+    color: white;
 }
