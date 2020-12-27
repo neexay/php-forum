@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.mini-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/user-profile-svgrepo-com.svg);
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+
+}
+.ask-btn input{
+    max-width:300px;
+}
+
+.user-info {
+    display: flex;
+    padding-left: 10px;
+}
+.user-name {
+    padding-left: 10px;
+}
+
+.user-name a:visited {
+    color: black;
+}
+.ask-tags {
+    display: flex;
+    color: rgb(94, 77, 77);
+}
+.ask-tags p {
+    padding-left: 10px;
+}
