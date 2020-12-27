@@ -35,7 +35,9 @@
 
             <input type="submit" class="btn" value="Регистрация">
 
-            <p>Я уже зарегистрирован(а). <a href="/security/login">Авторизация</a></p>
+            <div class="title">
+                <p>Я уже зарегистрирован(а). <a href="/security/login">Авторизация</a></p>
+            </div>
         </div>
     </form>
     <?php $content = ob_get_clean();
