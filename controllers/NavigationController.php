@@ -8,12 +8,6 @@ class NavigationController extends Controller
         return $this;
     }
 
-    public function actionShowAsk()
-    {
-        $this->renderView('', 'pages/question');
-        return $this;
-    }
-
     public function actionShowTags()
     {
         $this->renderView('', 'pages/tags');
@@ -25,13 +19,6 @@ class NavigationController extends Controller
         $this->renderView('', 'pages/feedback');
         return $this;
     }
-
-    public function actionShowProfile()
-    {
-        $this->renderView('', 'account/profile');
-        return $this;
-    }
-
 
 
 }

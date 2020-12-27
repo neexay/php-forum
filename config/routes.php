@@ -1,20 +1,19 @@
 <?php
 return array(
+    //SecurityController
+    'security/login' => 'security/showloginform',
+    'security/reg' => 'security/showregform',
 
-    //РОУТЫ С МЕТОДОМ POST
-    'user_reg'=>'auth/RegisterUser',
+    //QuestionsController
+    'questions/ask' => 'questions/showask',
+    'questions/123' => 'questions/showquestion',
 
-    //РОУТЫ С МЕТОДОМ GET
-    'login' => 'auth/showloginform',
-    'reg' => 'auth/showregform',
-    'ask' => 'navigation/showask',
-    'tags' => 'navigation/showtags',
-    'profile' => 'navigation/showprofile',
-    'remind_password' => 'auth/showremind',
+    //NavigationController
+    'navigation/tags' => 'navigation/showtags',
+    'navigation/feedback' => 'navigation/showfeedback',
+    '' => 'navigation/showmain',
 
-    'feedback' => 'navigation/showfeedback',
-    '' => 'navigation/showmain'
-
-
+    //AccountController
+    'account/profile' => 'account/showprofile',
 );
 

@@ -11,11 +11,19 @@ require_once(ROOT . '/components/Router.php');
 require_once(ROOT . '/components/Renderer.php');
 require_once(ROOT . '/components/Controller.php');
 
-
-
 // 3. Установка соединения с БД
-require_once(ROOT . '/config/ConnectDataBase.php');
 
+/*
+$hostname = "localhost";
+$username = "root";
+$password = "root";
+$db_name = "php-forum";
+try {
+    $connect = mysqli_connect($hostname, $username, $password, $db_name);
+} catch (Exception $e) {
+    var_dump($e->getMessage());
+}
+*/
 
 // 4. Вызов Router
 $router = new Router();

@@ -10,10 +10,7 @@
                     сервисе</a>
             </li>
             <li>
-                <a href="/feedback">Обратная связь</a>
-            </li>
-            <li>
-                <a href="/blog">Блог</a>
+                <a href="/navigation/feedback">Обратная связь</a>
             </li>
         </ul>
     </div>
