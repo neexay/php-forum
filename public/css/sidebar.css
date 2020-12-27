@@ -1,0 +1,36 @@
+.sidebar {
+    display: block;
+    width: 22vw;
+    background-color: #323f45;
+    height: 78vh;
+    overflow: hidden;
+    font-family: 'Space Grotesk', sans-serif;
+    grid-area: sidebar;
+}
+
+.sidebar a {
+    display: block;
+    position: relative;
+    color: #9aa4ad;
+    padding: 16px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+    border: none;
+    left: 0px; /*For animation*/
+}
+
+.sidebar a:hover {
+    left: 10px;
+    padding: 16px;
+    text-decoration: none;
+    border-left: 1px solid /*#babad9*/ #9aa4ad;
+    border-top: 1px solid /*#babad9*/ #9aa4ad;
+    border-bottom: 1px solid #babad9;
+    transition: 0.5s all ease;
+    background-color: #222A2E;
+}
+
+
+.sidebar a:active {
+    color: white;
+}
