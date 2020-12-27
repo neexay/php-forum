@@ -9,7 +9,7 @@
         <br>
         <?php } ?>
 
-    <form action="/reg" method="post">
+    <form action="/user_reg" method="post">
         <div class="sign-form">
             <div class="title">
                 <h2>Регистрация</h2>
