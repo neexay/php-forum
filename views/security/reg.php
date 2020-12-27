@@ -6,7 +6,7 @@
 
 <?php if (!isset($content)) {
     ob_start(); ?>
-    <form action="../../phpScripts/SignUpUser.php" method="post">
+    <form action="../../phpScripts/SignUpUser.php" method="post"  class="formWithValidation" id="reg_form">
         <div class="sign-form">
             <div class="title">
                 <h2>Регистрация</h2>
@@ -25,12 +25,12 @@
 
             <div class="title">
                 <h3>Введите пароль</h3>
-                <input name="password" type="password" size="30" required>
+                <input name="password" type="password" class="password" size="30" required>
             </div>
 
             <div class="title">
                 <h3>Введите пароль еще раз</h3>
-                <input type="password" size="30" required>
+                <input type="password"  class="passwordConfirmation" size="30" required>
             </div>
 
             <input type="submit" class="btn" value="Регистрация">
