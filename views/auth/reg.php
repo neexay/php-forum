@@ -6,7 +6,7 @@
 
 <?php if (!isset($content)) {
     ob_start(); ?>
-    <form class="formWithValidation" id="reg_form">
+    <form  action="/user_reg" method="post" class="formWithValidation" id="reg_form">
         <div class="sign-form">
             <div class="title">
                 <h2>Регистрация</h2>
@@ -15,22 +15,22 @@
 
             <div class="title">
                 <h3>Введите электронную почту</h3>
-                <input type="email" size="30" required>
+                <input type="email"  name="email"size="30" required>
             </div>
 
             <div class="title">
                 <h3>Введите имя</h3>
-                <input type="text" size="30" required>
+                <input type="text"  name="name" size="30" required>
             </div>
 
             <div class="title">
                 <h3>Введите пароль</h3>
-                <input type="password" class="password" size="30" required>
+                <input type="password" size="30" name="password" class="password" required>
             </div>
 
             <div class="title">
                 <h3>Введите пароль еще раз</h3>
-                <input type="password" class="passwordConfirmation" size="30" required>
+                <input type="password" size="30" required name="password_comfirm" class="passwordConfirmation">
             </div>
 
             <input type="submit" class="btn" value="Регистрация">
