@@ -26,5 +26,12 @@ class NavigationController extends Controller
         return $this;
     }
 
+    public function actionShowProfile()
+    {
+        $this->renderView('', 'account/profile');
+        return $this;
+    }
+
+
 
 }

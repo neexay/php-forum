@@ -19,6 +19,9 @@
             <div class="title">
                 <h3>Введите пароль</h3>
                 <input type="password" size="30" required>
+                <div class="title">
+                    <p>Я забыл пароль. <a href="/remind_password">Восстановить.</a> </p>
+                </div>
             </div>
 
             <input type="submit" class="btn" value="Вход">

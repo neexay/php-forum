@@ -16,6 +16,12 @@ class AuthController extends Controller
         return $this;
     }
 
+    public function actionShowRemind()
+    {
+        $this->renderView('', 'auth/remind-password');
+        return $this;
+    }
+
     public function actionRegisterUser(){
 
         if (isset($_POST['email'])){

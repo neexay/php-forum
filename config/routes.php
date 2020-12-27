@@ -9,6 +9,9 @@ return array(
     'reg' => 'auth/showregform',
     'ask' => 'navigation/showask',
     'tags' => 'navigation/showtags',
+    'profile' => 'navigation/showprofile',
+    'remind_password' => 'auth/showremind',
+
     'feedback' => 'navigation/showfeedback',
     '' => 'navigation/showmain'
 

@@ -1,9 +1,15 @@
 <!-- css parts -->
 <link rel="stylesheet" href="/public/css/menu_and_content.css" type="text/css">
-<link rel="stylesheet" href="/public/css/header.css">
-<link rel="stylesheet" href="/public/css/sidebar.css">
-<link rel="stylesheet" href="/public/css/content.css">
-<link rel="stylesheet" href="/public/css/footer.css">
+<link rel="stylesheet" href="/public/css/ask.css" type="text/css">
+<link rel="stylesheet" href="/public/css/content.css" type="text/css">
+<link rel="stylesheet" href="/public/css/footer.css" type="text/css">
+<link rel="stylesheet" href="/public/css/header.css" type="text/css">
+<link rel="stylesheet" href="/public/css/profile.css" type="text/css">
+<link rel="stylesheet" href="/public/css/question__page.css" type="text/css">
+<link rel="stylesheet" href="/public/css/reg_auth.css" type="text/css">
+<link rel="stylesheet" href="/public/css/sidebar.css" type="text/css">
+<link rel="stylesheet" href="/public/css/tags.css" type="text/css">
+
 <!-- preconnect -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <!-- fonts -->
