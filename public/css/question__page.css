@@ -24,6 +24,8 @@ textarea:focus, input:focus{
 .user-info {
     display: flex;
     padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .user-name {
     padding-left: 10px;
@@ -33,9 +35,43 @@ textarea:focus, input:focus{
     color: black;
 }
 .ask-tags {
+    padding-top: 10px;
     display: flex;
     color: rgb(94, 77, 77);
 }
 .ask-tags p {
     padding-left: 10px;
+}
+.ask-description, .comment-block {
+    margin: 10px;
+}
+
+.comments {
+    margin-top: 15px; 
+}
+.comment-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.comment-block {
+    background-color: rgba(163, 163, 163, 0.39);
+    max-width: 900px;
+}
+.selected {
+    background-color: rgba(30, 255, 0, 0.651);
+}
+.comment-block p {
+    padding: 10px;
+}
+.comment-description a {
+    font-size: 12px;
+}
+.comment-btn {
+    padding: 5px;
+    margin: 15px;
+}
+.answer_to_comment {
+    margin-left: 20px;
+    max-width: 700px;
 }

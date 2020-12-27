@@ -6,7 +6,8 @@
 <link rel="stylesheet" href="/public/css/footer.css">
 <link rel="stylesheet" href="/public/css/ask.css">
 <link rel="stylesheet" href="/public/css/profile.css">
-<link rel="stylesheet" href="/public/css/tags.css"
+<link rel="stylesheet" href="/public/css/tags.css">
+<link rel="stylesheet" href="/public/css/question__page.css"
 <!-- preconnect -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <!-- fonts -->

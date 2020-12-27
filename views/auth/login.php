@@ -4,7 +4,7 @@
     <?php $title = ob_get_clean();} ?>
 <!-- Установка СОДЕРЖИМОГО страницы ДЛЯ ТЕКУЩЕЙ СТРАНИЦЫ! -->
 <?php if(!isset($content)){ ob_start(); ?>
-    <form class="contact_form" action="#">
+    <form class="formWithValidation" id="login_from">
         <div class="sign-form">
             <div class="title">
                 <h2>Авторизация</h2>
@@ -19,15 +19,12 @@
             <div class="title">
                 <h3>Введите пароль</h3>
                 <input type="password" size="30" required>
-                <div class="title">
-                    <p>Я забыл пароль. <a href="/remind_password">Восстановить.</a> </p>
-                </div>
             </div>
 
             <input type="submit" class="btn" value="Вход">
 
             <div class="title">
-                <p>Я не зарегистрирован(а). <a href="/reg">Зарегистрироваться.</a> </p>
+                <p>Я забыл(а) пароль. <a href="/security/remind-password">Восстановить.</a> </p>
             </div>
         </div>
 
