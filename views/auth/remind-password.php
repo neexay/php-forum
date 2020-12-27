@@ -1,3 +1,11 @@
+<!--
+Задачи бекендам:
+1)если введена почта, проверить наличие такой почты в бд:
+----А)если есть - отправить сообщение с паролем на почту
+----Б)если нет - throw new NotFoundException
+
+2)если введен логин - найти в базе данных почту этого логина и скинуть пароль на почту
+-->
 
 <!-- Установка заголовка страницы ДЛЯ ТЕКУЩЕЙ СТРАНИЦЫ! -->
 <?php if(!isset($title)){ ob_start(); ?>
@@ -5,7 +13,7 @@
     <?php $title = ob_get_clean();} ?>
 <!-- Установка СОДЕРЖИМОГО страницы ДЛЯ ТЕКУЩЕЙ СТРАНИЦЫ! -->
 <?php if(!isset($content)){ ob_start(); ?>
-    <form class="formWithValidation" id="remind-password" action="">
+    <form class="formWithValidation" id="remind_form">
                 <div class="form">
                     <div class="title">
                         <h2>Восстановление пароля</h2>
@@ -14,7 +22,7 @@
 
                     <div class="title"> 
                         <h3>Введите логин или почту</h3>        
-                        <input type="text/email" class="field" size="30" required>
+                        <input type="text/email" size="30" required>
                         <p>Вам придет письмо с дальнейшими инструкциями</p>
                     </div>
                     
