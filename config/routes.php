@@ -1,19 +1,19 @@
 <?php
 return array(
     //SecurityController
-    'security/login' => 'security/showloginform',
-    'security/reg' => 'security/showregform',
+    'security/login' => 'security/SignIn',
+    'security/reg' => 'security/SignUp',
+    'security/profile' => 'security/Profile',
+    'security/remind' => 'security/Remind',
 
     //QuestionsController
-    'questions/ask' => 'questions/showask',
-    'questions/123' => 'questions/showquestion',
+    'questions/ask' => 'questions/Ask',
+    'questions/123' => 'questions/QuestionById',
 
     //NavigationController
-    'navigation/tags' => 'navigation/showtags',
-    'navigation/feedback' => 'navigation/showfeedback',
-    '' => 'navigation/showmain',
+    'navigation/tags' => 'navigation/Tags',
+    'navigation/feedback' => 'navigation/Feedback',
+    '' => 'navigation/Main',
 
-    //AccountController
-    'account/profile' => 'account/showprofile',
-);
+    );
 

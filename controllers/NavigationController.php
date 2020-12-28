@@ -2,21 +2,21 @@
 
 class NavigationController extends Controller
 {
-    public function actionShowMain()
+    public function actionMain()
     {
         $this->renderView('', 'pages/main');
         return $this;
     }
 
-    public function actionShowTags()
+    public function actionTags()
     {
-        $this->renderView('', 'pages/tags');
+        $this->renderView('', 'pages/navigation/tags');
         return $this;
     }
 
-    public function actionShowFeedback()
+    public function actionFeedback()
     {
-        $this->renderView('', 'pages/feedback');
+        $this->renderView('', 'pages/navigation/feedback');
         return $this;
     }
 
