@@ -3,14 +3,15 @@
 
 class QuestionsController extends Controller
 {
-    public function actionShowAsk()
+    public function actionAsk()
     {
-        $this->renderView('', 'pages/question');
+        $this->renderView('', 'pages/questions/ask');
         return $this;
     }
 
-    public function actionShowQuestion()
+    public function actionQuestionById()
     {
-
+        $this->renderView('', 'pages/questions/question'); //страница еще не существует
+        return $this;
     }
 }

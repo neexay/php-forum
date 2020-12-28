@@ -1,1 +1,1 @@
-<script src="../public/js/form_validation.js"></script>
+тут будут лежать скрипты
