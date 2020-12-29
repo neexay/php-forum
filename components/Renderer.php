@@ -23,7 +23,7 @@ class Renderer
     public function loadTemplate($template, $data = array())
     {
         $result = $data;
-        include $this->templates_dir . '/' . $template . '.php';
+        require_once $this->templates_dir . '/' . $template . '.php';
     }
 
     public function renderTemplate($data = array(), $name = '')

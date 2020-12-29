@@ -5,16 +5,16 @@
                 <a href="/" class="menu__link">Главная</a>
             </li>
             <li>
-                <a href="/javascript" class="menu__link">Javascript</a>
+                <a href="../../index.php" class="menu__link">Javascript</a>
             </li>
             <li>
-                <a href="/html-css" class="menu__link">HTML&CSS</a>
+                <a href="../../index.php" class="menu__link">HTML&CSS</a>
             </li>
             <li>
-                <a href="/php" class="menu__link">PHP</a>
+                <a href="../../index.php" class="menu__link">PHP</a>
             </li>
             <li>
-                <a href="/sql" class="menu__link">SQL</a>
+                <a href="../../index.php" class="menu__link">SQL</a>
             </li>
         </ul>
     </nav>
