@@ -9,7 +9,7 @@ class ModelQuestions
         $connect = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 
         $questionsList = array();
-
+        //вывести последние 10 записей из бд
         $result = mysqli_query($connect, "SELECT `id`, `title`, `author`, `date`, `content`
                     FROM `questions`
                     ORDER BY `date` DESC
