@@ -1,2 +1,2 @@
-# php-forum
+# JavaScript-forum
 Russian programming forum
