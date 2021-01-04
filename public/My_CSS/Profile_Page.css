@@ -1,0 +1,11 @@
+.profile_data:hover {
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (min-width: 1050px) {
+    .margin_content {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+}

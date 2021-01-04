@@ -1,0 +1,9 @@
+#logotip {
+    width: 200px;
+}
+
+@media screen and (max-width: 400px) {
+    #logotip {
+        width: 184px;
+    }
+}
