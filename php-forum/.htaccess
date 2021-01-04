@@ -1,5 +1,0 @@
-﻿RewriteEngine On
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule ^(.*)$ ./index.php
-SetEnvIf X-Forwarded-Proto https HTTPS=on
